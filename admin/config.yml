@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: https://github.com/jackmunton18/portfolio
+  repo: jackmunton18.github.io
   branch: master
   site_domain: modest-easley-674ac7.netlify.com
 
