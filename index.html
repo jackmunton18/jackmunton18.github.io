@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143344575-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-143344575-1');
+    </script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jack munton | Portfolio</title>
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <section class="splash">
+        <nav class="navigation">
+            <a class="navigation__link" href="https://www.linkedin.com/in/jack-munton-8179923b" target="_blank">LinkedIn</a>
+        </nav>
+        <header class="header">
+            <h1 class="header__primary-heading">Jack Munton</h1>
+            <h2 class="header__sub-heading">Front-End Developer</h2>
+        </header>
+        <img src="img/illustrations/splash.svg" class="splash__img" />
+    </section>
+
+    <section class="mailer">
+
+        <h1 class="mailer__header">Contact</h1>
+
+        <p class="mailer__body">This site is currently under construction. Want to know more? Get in touch!</p>
+
+        <form id="mailer" data-netlify="true" class="mailer-form">
+            <input type="text" id="form-name" name="name" placeholder="Full Name" required>
+            <input type="email" id="form-email" name="email" required placeholder="E-mail">
+            <textarea id="form-message" name="message" required placeholder="Your message" rows="5" maxlength="255"></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+
+    </section>
+
+    <script src="scripts/scripts.js"></script>
+
+
+    <div class="popup"></div>
+</body>
+</html>
